@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Clone da Netflix - Projeto DIO</title>
+</head>
+<body>
+    <header>
+        <div class="container">            
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#" class="destaque">Clique ==></a>
+                <a href="#" onclick="setImageAll('serie');">Séries</a>
+                <a href="#" onclick="setImageAll('filme');">Filmes</a>                
+                <a href="#" onclick="setImageAll('doc');">Documentários</a>                
+            </nav>
+        </div>
+    </header>
+    <main>        
+        <div class="filme-principal">            
+            <div class="container">
+                <h3 id="tituloprinc" class="titulo">50 tons de cinza</h3>
+                <p id="descricao" class="descricao">Anastasia Steele (Dakota Johnson) é uma estudante de design de 21 anos, e está confusa sobre qual tom de cinza utilizar na nova identidade visual do seu maior cliente.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA</button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <h3 class="subtitulo">Novidades</h3>
+        <div id="novidade" class='owl-carousel owl-theme'>
+            <div id="novidade1" class='item'></div>
+            <div id="novidade2" class='item'></div>
+            <div id="novidade3" class='item'></div>
+            <div id="novidade4" class='item'></div>
+            <div id="novidade5" class='item'></div>
+            <div id="novidade6" class='item'></div>
+            <div id="novidade7" class='item'></div>
+            <div id="novidade8" class='item'></div>
+            <div id="novidade9" class='item'></div>
+            <div id="novidade10" class='item'></div>
+        </div>
+
+    <div class="carrosel-filmes">
+        <h3 class="subtitulo">Continuar Assistindo</h3>
+        <div id="continuar" class='owl-carousel owl-theme'>
+            <div id="continuar1" class='item'></div>
+            <div id="continuar2" class='item'></div>
+            <div id="continuar3" class='item'></div>
+            <div id="continuar4" class='item'></div>
+            <div id="continuar5" class='item'></div>
+            <div id="continuar6" class='item'></div>
+            <div id="continuar7" class='item'></div>
+            <div id="continuar8" class='item'></div>
+            <div id="continuar9" class='item'></div>
+            <div id="continuar10" class='item'></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/img.js"></script>
+
+    <script>setImageAll('filme');</script>
+</body>
+</html>
